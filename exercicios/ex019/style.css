@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* 
+em html é id e em css é #
+em html é class e em css é .
+
+*/
+body{
+    background-color:#D98AE3 ;
+}
+main{
+    width: 80vw;
+    background-color: #e38b8b;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding-top: 1px;
+    
+}
+p{
+    color: white;
+}
+.resto{
+padding: 10px;
+}
+h1{
+color: rgb(122, 39, 39);
+}
+
+h1#principal{ /* não é necessário meter o h1 é só para organizar*/
+    text-align: center;
+background-color: #D98AE3;
+background-position: 85vw;
+
+}
+
+h2{
+color: rgb(170, 44, 44) ;
+}
+.basico{
+color: rgb(73, 143, 73);
+}
+.intermediario{
+color: rgb(177, 177, 96);
+}
+.avancado{
+color: rgb(78, 78, 152);
+}
+.destaque{
+
+background-color: rgb(149, 33, 164);
+}

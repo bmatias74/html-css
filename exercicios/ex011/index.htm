@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>tente mudar o tamanho da tela</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/fotop.png" type="image/png">
+       <source media="(max-width: 1050px )" srcset="imagens/fotom.png" type="image/png">
+       <img src="imagens/fotog.png" alt="">
+
+    </picture>
+    <h1>Audio</h1>
+    <p>Temos aqui o som Tchibiye por lilovo</p>
+     <!--<audio src="midia/LIL_OVO_-_TCHIBIYE.boa.mp3" controls ></audio> --><!--MP3 WAV OGG- -->
+    <audio preload="metadata" controls >
+   <source src="midia/LIL_OVO_-_TCHIBIYE.boa.mp3" type="audio/mpeg">
+   <source src="midia/LIL_OVO_-_TCHIBIYE.boa.ogg" type="audio/ogg">
+   <source src="midia/LIL_OVO_-_TCHIBIYE.boa.wav" type="audio/wav">
+   <p>infelizmente o seu navegador não consegue reproduzir audio. clique em <a href="midia/LIL_OVO_-_TCHIBIYE.boa.mp3">baixar</a></p>
+    </audio>
+</body>
+</html>

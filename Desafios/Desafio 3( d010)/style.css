@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: #E9E6C3;
+    overflow-x: hidden;
+   margin: 0;
+
+} 
+
+header{
+    
+    background-image: linear-gradient(to top ,#033D1D, #269A5A);
+    width: 100%;
+    padding: 10px;
+ 
+    
+}
+header > h1,p{
+    color: white;
+    text-align: center;
+}
+nav{
+    
+}
+nav > a{
+   
+    text-decoration: none;
+    color: #72d09b;
+    margin-left: 10px;
+}
+main{
+    
+    background-color: white;
+    margin: 0 auto; 
+   width: 77%;
+    padding: 10px;
+    box-sizing: border-box; 
+    border-radius: 5px;
+}
+ main  h1{
+    font-family: 'idroid';
+    padding-left: 10px;
+    color: #15382A;
+    margin-top: 0;
+} 
+main p{
+    text-align: justify;
+    text-indent: 1.5rem;
+    color: black;
+}
+main h2{
+    background-image: linear-gradient(to right,#86E4AF,white);
+    color: #2B7749;
+    padding: 0 0 0 5px;
+}
+img{
+    display: block;
+    margin: auto;
+}
+.cdif{
+    font-weight: bolder;
+    color: #002eff;
+}
+.linkd {
+    background-color:#86E1B0;
+}
+.linkd::after ,.link::after{
+    
+    content: url(imagens/link.png);
+}
+#vid-container{
+    width: 100%;
+    margin: -10px;
+   
+    background-color: #15382A;
+   
+}
+#vid{
+    display: block;
+    margin: auto;
+ padding: 10px;
+}
+#caixa{
+    background-color: #86E1B0;
+    width: 90%;
+    border-radius: 5px;
+    margin:  4% auto;
+    padding: 10px;
+}
+#caixa h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #033D1D;
+}
+ul{
+list-style-type: none;
+margin: auto;
+
+columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+li{
+    margin: auto;
+    display: flex;
+}
+li::before{
+content: '✔';
+}
+.negrito{
+font-weight: bolder;
+}
+footer{
+    margin-bottom: 0;
+    background-color: #15382A;
+    box-sizing: border-box; 
+    padding: 10px;
+}
+@media only screen and (max-width: 1007px){
+    body{
+        
+        overflow-x: hidden;
+    }
+    main{
+        width: 100%;
+        margin: 0 ;
+        
+    }
+    img#dandroid{
+        content: url(imagens/dan-droids-pq.png);
+        width: 39%;
+    }
+    #irina{
+        content: url(imagens/irina-blok-pq.jpg);
+        width: 39%;
+    }
+    #vid{
+        width: 77%;
+    }
+    
+}
